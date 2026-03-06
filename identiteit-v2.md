@@ -58,11 +58,19 @@ _Waarom deze waarde boven 'luxe'?_ Luxe is een prijssignaal. Een eigen plek is e
 
 ---
 
+## Ontwerpfilosofie
+
+**De plek vertelt het huis.**
+
+_Het kompas:_ Voordat er een lijn getekend wordt, lezen we de grond, het licht, de oriëntatie, de bosrand. De plek vertelt wat daar kan staan. De architect luistert en vertaalt.
+
+---
+
 ## Merkbelofte
 
-**Wij ontwerpen vakantiewoningen die beginnen bij de plek — en eindigen bij iets dat alleen hier kan zijn.**
+**Wij luisteren naar de plek en de opdrachtgever, en ontwerpen wat daar hoort.**
 
-_De belofte:_ Geen catalogus. Geen model. Een huis dat zo specifiek is ontworpen voor deze grond dat het nergens anders zou werken. Dat is wat LOCUS levert — niet een gebouw dat past, maar een eigen plek.
+_De belofte:_ Twee inputs, één resultaat. De plek vertelt wat kan. De opdrachtgever vertelt wat hij wil. De architect brengt die twee samen in een huis dat nergens anders zou werken. Geen catalogus, geen model. Een eigen plek.
 
 ---
 
