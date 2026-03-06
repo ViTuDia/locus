@@ -1,1 +1,180 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOCUS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
+    :root {
+      --anthracite: #2C2926;
+      --offwhite:   #F5F0EB;
+      --wood:       #8B7D6B;
+      --moss:       #5B6B4A;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      background-color: var(--anthracite);
+      color: var(--offwhite);
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 300;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* ── Header ───────────────────────────────────── */
+    header {
+      padding: 48px 64px;
+    }
+
+    .wordmark {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.45em;
+      text-transform: uppercase;
+      color: var(--offwhite);
+    }
+
+    /* ── Main ─────────────────────────────────────── */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 64px;
+      max-width: 960px;
+    }
+
+    .accent-line {
+      width: 40px;
+      height: 1px;
+      background-color: var(--moss);
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 300;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      margin-bottom: 32px;
+      color: var(--offwhite);
+    }
+
+    h1 em {
+      font-style: italic;
+      color: var(--wood);
+    }
+
+    p.body {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: var(--offwhite);
+      opacity: 0.7;
+      max-width: 480px;
+      margin-bottom: 56px;
+    }
+
+    .status {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--wood);
+    }
+
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--moss);
+    }
+
+    /* ── Footer ───────────────────────────────────── */
+    footer {
+      padding: 48px 64px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border-top: 1px solid rgba(139, 125, 107, 0.2);
+    }
+
+    .tagline {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--wood);
+    }
+
+    .contact {
+      font-size: 0.75rem;
+      color: var(--offwhite);
+      opacity: 0.4;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      transition: opacity 0.2s;
+    }
+
+    .contact:hover {
+      opacity: 0.8;
+    }
+
+    /* ── Responsive ───────────────────────────────── */
+    @media (max-width: 600px) {
+      header,
+      main,
+      footer {
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+
+      footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <span class="wordmark">L O C U S</span>
+  </header>
+
+  <main>
+    <div class="accent-line"></div>
+    <h1>De wereld is overal.<br><em>Jouw plek is hier.</em></h1>
+    <p class="body">
+      Wij ontwerpen vakantiewoningen die beginnen bij de plek —
+      en eindigen bij iets dat alleen hier kan zijn.
+      De site is in aanbouw. Het werk gaat door.
+    </p>
+    <div class="status">
+      <span class="status-dot"></span>
+      In ontwikkeling
+    </div>
+  </main>
+
+  <footer>
+    <span class="tagline">Gebouwd voor de plek.</span>
+    <a class="contact" href="mailto:info@locus.nl">info@locus.nl</a>
+  </footer>
+
+</body>
+</html>
