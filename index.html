@@ -135,12 +135,42 @@
     }
 
     /* ── Responsive ───────────────────────────────── */
-    @media (max-width: 600px) {
+
+    /* iPhone (≤ 480px) */
+    @media (max-width: 480px) {
       header,
-      main,
       footer {
-        padding-left: 32px;
-        padding-right: 32px;
+        padding: 28px 24px;
+      }
+
+      main {
+        padding: 0 24px;
+      }
+
+      .accent-line {
+        margin-bottom: 32px;
+      }
+
+      h1 {
+        margin-bottom: 24px;
+      }
+
+      footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+    }
+
+    /* iPad (481px – 1024px) */
+    @media (min-width: 481px) and (max-width: 1024px) {
+      header,
+      footer {
+        padding: 40px 48px;
+      }
+
+      main {
+        padding: 0 48px;
       }
 
       footer {
@@ -149,6 +179,8 @@
         gap: 16px;
       }
     }
+
+    /* Groot scherm (> 1024px) — standaard stijlen gelden */
   </style>
 </head>
 <body>
